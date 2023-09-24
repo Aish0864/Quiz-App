@@ -1,0 +1,464 @@
+{ 
+  "questions": [
+    {
+      "question": "What is the correct syntax for declaring a variable in JavaScript?",
+      "options": [
+        "var variableName;",
+        "let variableName;",
+        "const variableName;",
+        "All of the above"
+      ],
+      "answer": "All of the above"
+    },
+    {
+      "question": "What is the result of the following expression in JavaScript?\n10 + \"20\"",
+      "options": [
+        "30",
+        "\"1020\"",
+        "\"30\"",
+        "1020"
+      ],
+      "answer": "\"1020\""
+    },
+    {
+      "question": "Which function is used to parse a string to an integer in JavaScript?",
+      "options": [
+        "parseInt()",
+        "parseFloat()",
+        "toInt()",
+        "parseInteger()"
+      ],
+      "answer": "parseInt()"
+    },
+    {
+      "question": "What will the following JavaScript code output?\nconsole.log(0.1 + 0.2 === 0.3);",
+      "options": [
+        "true",
+        "false",
+        "Error",
+        "undefined"
+      ],
+      "answer": "false"
+    },
+    {
+      "question": "In JavaScript, what is the purpose of the JSON.parse() function?",
+      "options": [
+        "To convert a JSON string to a JavaScript object",
+        "To convert a JavaScript object to a JSON string",
+        "To parse a string to an integer",
+        "To parse a string to a float"
+      ],
+      "answer": "To convert a JSON string to a JavaScript object"
+    },
+    {
+      "question": "How do you write a comment in JavaScript?",
+      "options": [
+        "// This is a comment",
+        "/* This is a comment */",
+        "' This is a comment",
+        "# This is a comment"
+      ],
+      "answer": "// This is a comment"
+    },
+    {
+      "question": "Which operator is used for concatenating strings in JavaScript?",
+      "options": [
+        "+",
+        "-",
+        "*",
+        "/"
+      ],
+      "answer": "+"
+    },
+    {
+      "question": "What is the correct way to check if a variable is null in JavaScript?",
+      "options": [
+        "if (myVar === null)",
+        "if (myVar == null)",
+        "if (myVar === undefined)",
+        "if (myVar == undefined)"
+      ],
+      "answer": "if (myVar === null)"
+    },
+    {
+      "question": "What is the output of the following code?\nconsole.log(typeof null);",
+      "options": [
+        "object",
+        "null",
+        "undefined",
+        "string"
+      ],
+      "answer": "object"
+    },
+    {
+      "question": "What is the correct way to create a JavaScript array?",
+      "options": [
+        "var arr = []",
+        "var arr = {}",
+        "var arr = new Array()",
+        "var arr = new Array[]"
+      ],
+      "answer": "var arr = []"
+    },
+    {
+      "question": "What does the 'typeof' operator in JavaScript return for an array?",
+      "options": [
+        "object",
+        "array",
+        "string",
+        "number"
+      ],
+      "answer": "object"
+    },
+    {
+      "question": "What is the output of the following code?\nconsole.log(1 + '1' - 1);",
+      "options": [
+        "10",
+        "11",
+        "01",
+        "21"
+      ],
+      "answer": "10"
+    },
+    {
+      "question": "What is the purpose of the 'return' statement in a JavaScript function?",
+      "options": [
+        "To specify the output of the function",
+        "To end the function and return a value",
+        "To define a recursive function",
+        "To declare a function"
+      ],
+      "answer": "To end the function and return a value"
+    },
+    {
+      "question": "Which built-in method is used to convert a string to lowercase in JavaScript?",
+      "options": [
+        "toLowerCase()",
+        "toLower()",
+        "lowerCase()",
+        "caseLower()"
+      ],
+      "answer": "toLowerCase()"
+    },
+    {
+      "question": "In JavaScript, what is the purpose of the 'addEventListener' method?",
+      "options": [
+        "To attach an event handler to an element",
+        "To remove an event handler from an element",
+        "To create a new event",
+        "To trigger an event"
+      ],
+      "answer": "To attach an event handler to an element"
+    },
+    {
+      "question": "Which keyword is used to declare a block of code to be executed, based on a condition, in JavaScript?",
+      "options": [
+        "if",
+        "then",
+        "switch",
+        "case"
+      ],
+      "answer": "if"
+    },
+    {
+      "question": "What is the correct way to loop through an array in JavaScript?",
+      "options": [
+        "for (var i = 0; i < arr.length; i++)",
+        "for (var i in arr)",
+        "for (var i = 0; i <= arr.length; i++)",
+        "for (var i of arr)"
+      ],
+      "answer": "for (var i = 0; i < arr.length; i++)"
+    },
+    {
+      "question": "What is the result of the following expression in JavaScript?\nnull + undefined",
+      "options": [
+        "NaN",
+        "null",
+        "undefined",
+        "0"
+      ],
+      "answer": "NaN"
+    },
+    {
+      "question": "What does the 'NaN' stand for in JavaScript?",
+      "options": [
+        "Not a Number",
+        "Null and Notation",
+        "Never a Number",
+        "Notable and Noted"
+      ],
+      "answer": "Not a Number"
+    },
+    {
+      "question": "What is the purpose of the 'slice' method in JavaScript?",
+      "options": [
+        "To extract a portion of an array into a new array",
+        "To join two arrays",
+        "To sort an array",
+        "To reverse an array"
+      ],
+      "answer": "To extract a portion of an array into a new array"
+    },
+    {
+      "question": "What is the correct way to compare two values for equality in JavaScript?",
+      "options": [
+        "==",
+        "===",
+        "!=",
+        "!=="
+      ],
+      "answer": "==="
+    },
+    {
+      "question": "What is the correct way to access the last element of an array in JavaScript?",
+      "options": [
+        "arr[arr.length - 1]",
+        "arr[-1]",
+        "arr[last]",
+        "arr.last"
+      ],
+      "answer": "arr[arr.length - 1]"
+    },
+    {
+      "question": "What is the purpose of the 'push' method in JavaScript?",
+      "options": [
+        "To add an element to the end of an array",
+        "To remove the last element of an array",
+        "To sort an array",
+        "To reverse an array"
+      ],
+      "answer": "To add an element to the end of an array"
+    },
+    {
+      "question": "Which built-in method is used to join the elements of an array into a string in JavaScript?",
+      "options": [
+        "join()",
+        "concat()",
+        "merge()",
+        "combine()"
+      ],
+      "answer": "join()"
+    },
+    {
+      "question": "What is the result of the following expression in JavaScript?\n10 - '5'",
+      "options": [
+        "5",
+        "NaN",
+        "0",
+        "15"
+      ],
+      "answer": "5"
+    },
+    {
+      "question": "What is the purpose of the 'pop' method in JavaScript?",
+      "options": [
+        "To remove the last element of an array",
+        "To add an element to the end of an array",
+        "To sort an array",
+        "To reverse an array"
+      ],
+      "answer": "To remove the last element of an array"
+    },
+    {
+      "question": "What does the 'splice' method do in JavaScript?",
+      "options": [
+        "Adds or removes elements from an array",
+        "Joins two arrays together",
+        "Sorts the elements of an array",
+        "Reverses the elements of an array"
+      ],
+      "answer": "Adds or removes elements from an array"
+    },
+    {
+      "question": "In JavaScript, what is the purpose of the 'filter' method?",
+      "options": [
+        "To create a new array with all elements that pass a test",
+        "To sort the elements of an array",
+        "To reverse the elements of an array",
+        "To add an element to the end of an array"
+      ],
+      "answer": "To create a new array with all elements that pass a test"
+    },
+    {
+      "question": "What is the result of the following expression in JavaScript?\n'hello'.toUpperCase()",
+      "options": [
+        "'HELLO'",
+        "'hello'",
+        "'Hello'",
+        "'hElLo'"
+      ],
+      "answer": "'HELLO'"
+    },
+    {
+      "question": "In JavaScript, what is the purpose of the 'map' method?",
+      "options": [
+        "To create a new array with the results of calling a function on every element",
+        "To sort the elements of an array",
+        "To reverse the elements of an array",
+        "To add an element to the end of an array"
+      ],
+      "answer": "To create a new array with the results of calling a function on every element"
+    },
+    {
+      "question": "What is the correct way to remove the first element from an array in JavaScript?",
+      "options": [
+        "arr.shift()",
+        "arr.pop()",
+        "arr.splice(0, 1)",
+        "arr.slice(1)"
+      ],
+      "answer": "arr.shift()"
+    },
+    {
+      "question": "What is the result of the following expression in JavaScript?\nMath.max(5, 10, 3)",
+      "options": [
+        "10",
+        "5",
+        "3",
+        "15"
+      ],
+      "answer": "10"
+    },
+    {
+      "question": "In JavaScript, what is the purpose of the 'reduce' method?",
+      "options": [
+        "To reduce the array to a single value",
+        "To sort the elements of an array",
+        "To reverse the elements of an array",
+        "To add an element to the end of an array"
+      ],
+      "answer": "To reduce the array to a single value"
+    },
+    {
+      "question": "What does the 'localStorage' object in JavaScript allow you to do?",
+      "options": [
+        "Store key-value pairs in a web browser",
+        "Access the user's location",
+        "Access the user's camera",
+        "Access the user's microphone"
+      ],
+      "answer": "Store key-value pairs in a web browser"
+    },
+    {
+      "question": "In JavaScript, what is the purpose of the 'find' method?",
+      "options": [
+        "To return the first element that passes a test",
+        "To sort the elements of an array",
+        "To reverse the elements of an array",
+        "To add an element to the end of an array"
+      ],
+      "answer": "To return the first element that passes a test"
+    },
+    {
+      "question": "What is the purpose of the 'sort' method in JavaScript?",
+      "options": [
+        "To sort the elements of an array",
+        "To add an element to the end of an array",
+        "To remove the last element of an array",
+        "To join the elements of an array into a string"
+      ],
+      "answer": "To sort the elements of an array"
+    },
+    {
+      "question": "What is the result of the following expression in JavaScript?\ntypeof NaN",
+      "options": [
+        "number",
+        "undefined",
+        "NaN",
+        "string"
+      ],
+      "answer": "number"
+    },
+    {
+      "question": "What is the purpose of the 'unshift' method in JavaScript?",
+      "options": [
+        "To add an element to the beginning of an array",
+        "To remove the last element of an array",
+        "To sort an array",
+        "To reverse an array"
+      ],
+      "answer": "To add an element to the beginning of an array"
+    },
+    {
+      "question": "What is the purpose of the 'reverse' method in JavaScript?",
+      "options": [
+        "To reverse the order of the elements in an array",
+        "To sort an array",
+        "To add an element to the end of an array",
+        "To remove the last element of an array"
+      ],
+      "answer": "To reverse the order of the elements in an array"
+    },
+    {
+      "question": "In JavaScript, what is the purpose of the 'some' method?",
+      "options": [
+        "To check if at least one element passes a test",
+        "To sort the elements of an array",
+        "To reverse the elements of an array",
+        "To add an element to the end of an array"
+      ],
+      "answer": "To check if at least one element passes a test"
+    },
+    {
+      "question": "What is the result of the following expression in JavaScript?\nparseInt('10px')",
+      "options": [
+        "10",
+        "NaN",
+        "0",
+        "20"
+      ],
+      "answer": "10"
+    },
+    {
+      "question": "In JavaScript, what is the purpose of the 'shift' method?",
+      "options": [
+        "To remove the first element of an array",
+        "To add an element to the beginning of an array",
+        "To sort an array",
+        "To reverse an array"
+      ],
+      "answer": "To remove the first element of an array"
+    },
+    {
+      "question": "What is the result of the following expression in JavaScript?\nparseFloat('10.5')",
+      "options": [
+        "10.5",
+        "10",
+        "5",
+        "NaN"
+      ],
+      "answer": "10.5"
+    },
+    {
+      "question": "In JavaScript, what is the purpose of the 'lastIndexOf' method?",
+      "options": [
+        "To return the last occurrence of a specified value in an array",
+        "To sort the elements of an array",
+        "To reverse the elements of an array",
+        "To add an element to the end of an array"
+      ],
+      "answer": "To return the last occurrence of a specified value in an array"
+    },
+    {
+      "question": "What is the purpose of the 'charAt' method in JavaScript?",
+      "options": [
+        "To return the character at a specified index in a string",
+        "To sort the characters of a string",
+        "To reverse the characters of a string",
+        "To add a character to a string"
+      ],
+      "answer": "To return the character at a specified index in a string"
+    },
+    {
+      "question": "In JavaScript, what is the purpose of the 'replace' method?",
+      "options": [
+        "To replace a specified value with another value in a string",
+        "To join two strings together",
+        "To reverse the characters of a string",
+        "To add a character to a string"
+      ],
+      "answer": "To replace a specified value with another value in a string"
+    }
+  ]
+}

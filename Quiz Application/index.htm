@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="https://kit.fontawesome.com/6ca2ab773d.js" crossorigin="anonymous"></script>
+
+    <title>Quiz App</title>
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="startdiv" id="startdiv">
+            <div class="start">
+                <h1 class="headline">Take a Javascript Quiz</h1>
+                <img class="goforit" src="./image/goodluck1.png" />
+                <h1 style="color: white;">Good Luck</h1>
+                <div class="btn"><button id="startbtn" class="startbtn">Start</button></div>
+            </div>
+        </div>
+
+        <div class="info_box">
+            <div class="info_container">
+                <div class="info-title"><span>Some Rules of this Quiz</span></div>
+                <div class="info-list">
+                    <div class="info">1. You will have only <span>15 seconds</span> per each question.</div>
+                    <div class="info">2. Once you select your answer, it can't be undone.</div>
+                    <div class="info">3. You can't select any option once time goes off.</div>
+                    <div class="info">4. You can exit from the Quiz while you're playing.</div>
+                    <div class="info">5. You'll get points on the basis of your correct answers.</div>
+                </div>
+                <div class="buttons">
+                    <button class="quit" id="quit">Exit Quiz</button>
+                    <button class="continue" id="continue">Continue</button>
+                </div>
+            </div>
+        </div>
+R
+        <div class="quiz_box">
+            <div class="quiz">
+                <div class="quizheader">
+                    <h1>Javascript Quiz</h1>
+                    <div class="time">
+                        <h2>
+                            <i class="fa fa-stopwatch "></i> <span class="timer_sec">00:30</span>s
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="time_line">
+                </div>
+
+                <div class="questions">
+                    <h1 class="question" id="question">
+                        <!-- Quesion -->
+                    </h1>
+                    <div class="answers">
+                        <button class="choice" id="choice1"></button>
+                        <button class="choice" id="choice2"></button>
+                        <button class="choice" id="choice3"></button>
+                        <button class="choice" id="choice4"></button>
+                    </div>
+                </div>
+
+                <div class="quizfooter">
+                    <p><span id="queCount">1</span> of 5 Questions</p>
+                    <div class="quizbtns">
+                        <button id="endQuiz">End Quiz</button>
+                        <button id="nextBtn">Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="result_box">
+            <div class="result_container">
+                <div class="icon">
+                    <img id="icon" src="./image/wired-flat-1780-medal-first-place.gif" alt="">
+                </div>
+                <div class="complete_text">You've completed the Quiz!</div>
+                <div class="score_text">
+                    <!-- Here I've inserted Score Result from JavaScript -->
+                </div>
+                <div class="buttons">
+                    <button class="restart" id="replay">Replay Quiz</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./javascript/index.js"></script>
+</body>
+
+</html>
